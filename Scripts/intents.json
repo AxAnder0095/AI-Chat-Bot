@@ -1,9 +1,18 @@
 {"intents":  [
   {"tag":  "greetings",
   "patterns": ["hello", "hey", "hi", "hey", "good day", "greetings", "what's up?", "how is it going?"],
-  "responses": ["Hello", "Hey!", "What can I do for you?"]},
+  "responses": ["Hello!", "Hey!", "What can I do for you?", "hihi!", "Greetings!", "Hello, how are you today!"
+  , "What's up~", "Ohayo!"]},
 
   {"tag":  "goodbye",
-  "patterns": ["cya", "see you later", "goodbye", "i am leaving", "have a good day", "bye", "cao", "see ya"],
-  "responses": ["Goodbye :(", "Sad to see you go...", "Talk to you later~", "It was fun talking!", "Bye Bye!!!"]}
+  "patterns": ["cya", "see you later", "goodbye", "i am leaving", "have a good day", "bye", "cao", "see ya", "gotta go"
+  , "heading out", "goodnight", "see you next time", "ttyl"],
+  "responses": ["Goodbye :(", "Sad to see you go...", "Talk to you later~", "It was fun talking!", "Bye Bye!!!"
+  , "See you again soon!", "Till next time."]},
+
+  {"tag":  "name",
+  "patterns": ["what is your name", "your name", "name", "what's your name", "what do i call you", "who are you",
+    "who is this", "who's this", "what should i call you", "your name is"],
+  "responses": ["MikoAI!", "My name is Miko!", "Names Miko", "MikoAI! But you can call me Miko!", "MikoAI is my name!",
+  "I go by the name Miko or MikoAI!", "MikoAI, but you can call me whatevet you like!"]}
 ]}
